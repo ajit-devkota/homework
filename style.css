@@ -1,0 +1,62 @@
+body
+{
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   color:rgb(55, 55, 55);
+    background-color:rgb(104, 167, 152);
+}
+.container{
+    width: 700px;
+    margin: 16px auto;/* centers the layout */
+}
+.logo{
+    font-size: 36px;
+    font-weight: bold;
+    letter-spacing: 6px;
+    text-align: center;
+}
+header {
+    text-align: center;
+}
+header img{
+    width: 200px;
+    height: auto;
+}
+nav li{
+    display: inline;
+    margin-right: 10px;
+    
+}
+nav ul{
+list-style: none;
+    padding-left: 0;
+}
+nav ul li{
+    display:block;
+    margin-right: 20px;
+    text-align: left;
+}
+nav a, nav a:visited, nav a:active{
+    color: rgb(55, 55, 55);
+    text-decoration: none;
+    text-transform: uppercase;
+}
+/*hover =mouse is on the element */
+nav a:hover{
+    color: burlywood;
+    text-decoration: underline;
+}
+img{
+    width: 500px;
+    height: auto;
+}
+footer{
+    background-color: rgb(23, 20, 20);
+    color: rgb(243, 232, 232);
+    font-size: 12px;
+    padding-top: 16px;
+    padding-left: 24px;
+    padding-bottom: 16px;
+    /*padding: top right bottom left; */
+    padding: 16px, 24px, 16px, 24px;
+}
+
